@@ -1,0 +1,18 @@
+development:
+ adapter: mysql2
+ database: test_development
+ username: root
+ password: dtcs95
+ host: localhost
+test:
+ adapter: mysql2
+ database: test_test
+ username: root
+ password: dtcs95
+ host: localhost
+production:
+ adapter: mysql2
+ database: test_production
+ username: root
+ password: dtcs95
+ host: localhost
